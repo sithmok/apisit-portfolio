@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='register.css'>
+	<script src='register.js'></script>
+</head>
+<body>
+	<div class="container">
+		<div class="register-container">
+			<div class="login-grid">
+				<div class="grid-left">
+					<img src="pic/car.jpg" alt="">
+				</div>
+				<div class="grid-right">
+					<h1>Sign In</h1>
+					<div class="form">
+						<form name="myForm" id="myForm" class="myForm" action="login.html">
+							<span id="errormsg"></span> <br>
+							<p>First name</p> 
+							<input type="text" name="firstname" class = "input-text" required>
+							<p>Last name</p> 
+							<input type="text" name="lastname" class = "input-text">
+							<br>
+							<div class="gender">
+							<p>Gender:</p>
+							<input type="radio" name="gender" value="male" >Male
+							<input type="radio" name="gender" value="female" >Female
+							<input type="radio" name="gender" value="female" >Other
+							</div>
+							<p>Birthday:</p>
+							<input type="date" name="bday" value="" class = "input-text">
+							<p>Email address:</p>
+							<input type="email" name="email" class = "input-text">
+							<p>Username:</p>
+							<input type="text" name="username" id="username" class = "input-text">
+							<p>Password:</p>
+							<input type="password" name="password" id="password" class = "input-text" required>
+							<p>Retype Password:</p>
+							<input type="password" name="password" id="repassword" class = "input-text" required>
+							<br>
+							<br>
+							<input type="submit" value="Register" class ="btn">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 100vh; */
+    height: 100vh;
+    background: no-repeat;
+    background-image: url(pic/road1.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    width: 70rem;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+.login-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-left {
+    grid-column: 1 / span 1;
+    background-color: tomato;
+}
+
+.grid-left img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.grid-right {
+    grid-column: 2 / span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.grid-right p{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px;
+}
+
+.form {
+    width: 100%;
+}
+
+.input-text {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px transparent;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 102, 102);
+    color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+
+.myForm p {
+    color: rgb(160, 160, 160);
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

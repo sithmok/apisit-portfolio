@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 100vh; */
+    height: 100vh;
+    background: no-repeat;
+    background-image: url(pic/road1.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 60rem;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    
+}
+
+.login-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-left {
+    grid-column: 1 / span 1;
+    background-color: tomato;
+}
+
+.grid-left img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.grid-right {
+    grid-column: 2 / span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.grid-right p{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px;
+}
+
+.form {
+    width: 100%;
+}
+
+/* .input-text-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+} */
+
+.input-text {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px transparent;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 102, 102);
+    color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+
+.myLogin p {
+    color: rgb(160, 160, 160);
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+}
+
+.forgot p{
+    padding-right: 10px;
+    color: rgb(160, 160, 160);
+    margin: 0px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.forgot a:hover{
+    color: rgb(173, 173, 173);
+    transition: all ease 0.5s;
+}

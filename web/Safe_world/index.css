@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(pic/geran-de-klerk-yKiLWMWquKE-unsplash.jpg);
+    background-position:left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo h1 {
+    font-size: 50px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: start;
+    width: 85%;
+    color: white;
+    margin-top: 200px;
+}
+
+.content {
+    width: 560px;
+}
+
+.content h1{
+    font-size: 70px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.content-logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    /* padding-left: 50px; */
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
