@@ -636,10 +636,82 @@ ul li a:hover{
 
 
 
+/* ps */
+
+.ps-container {
+    width: 100%;
+    padding: 5% 0%;
+}
+
+.ps-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pos {
+    width: 60%;
+    position: relative;
+}
+
+.mySlides1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pos:hover .hold-color {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hove {
+    width: 60%;
+}
+
+.hove img {
+    transition: all 0.3s linear;
+}
+
+.hove:hover img{
+    transform: scale(1.1);
+}
+
+.mySlides2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ps-left-btn {
+    cursor: pointer;
+    font-size: 50px;
+    padding: 0% 1.5%;
+    color: white;
+}
+
+.ps-left-btn:hover{
+    transition: all ease 0.5s;
+    background-color: rgb(85, 85, 85);
+}
+
+.ps-right-btn {
+    cursor: pointer;
+    font-size: 50px;
+    padding: 0% 1.5%;
+    color: white;
+}
+
+.ps-right-btn:hover {
+    transition: all ease 0.5s;
+    background-color: rgb(85, 85, 85);
+}
+
+
 /* Project content */
 
 
-
+.pj-container {
+    padding: 5% 0%;
+}
 
 .project-content-box {
     display: grid;
