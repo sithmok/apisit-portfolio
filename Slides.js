@@ -1,7 +1,9 @@
 var slideIndex = 1;
 var slideIndex2 = 1;
+var slideIndex3 = 1;
     showDivs1(slideIndex);
     showDivs2(slideIndex2);
+    showDivs3(slideIndex3);
     
     function plusDivs1(n) {
       showDivs1(slideIndex += n);
@@ -9,6 +11,10 @@ var slideIndex2 = 1;
 
     function plusDivs2(n) {
       showDivs2(slideIndex2 += n);
+    }
+
+    function plusDivs3(n) {
+      showDivs3(slideIndex3 += n);
     }
     
     function showDivs1(n) {
@@ -31,4 +37,15 @@ var slideIndex2 = 1;
          x[i].style.display = "none";  
       }
       x[slideIndex2-1].style.display = "block";  
+    }
+
+    function showDivs3(n) {
+      var i;
+      var x = document.getElementsByClassName("slide-box3");
+      if (n > x.length) {slideIndex3 = 1}    
+      if (n < 1) {slideIndex3 = x.length} ;
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex3-1].style.display = "block";  
     }

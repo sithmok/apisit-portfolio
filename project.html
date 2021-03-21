@@ -7,178 +7,181 @@
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="topbar-port" id="topbar-port">
-        <div class="logo">
-             <h1>Portfolio & Project</h1>
+    <div class="topbar" id="topbar">
+        <!-- navigation -->
+        <!-- logo -->
+        <div class="logo" data-aos="fade-right">
+             <h1>MyWeb</h1>
         </div>
+         <!-- menu  -->
+        <div>
+            <ul id="list-menu" data-aos="fade-left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Portfolio & Project</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+
         <div class="menu" id="menu">
+            <i class="fas fa-bars"></i>
         </div>
+
     </div>
     <div class="web-content">
         <div class="container-box">
-            <div class="top">
-                <h1>WEB DEVELOPMENT</h1>
-            </div>
-            <div class="web-content-box">
-                <div class="web-box" data-aos="fade-up" data-aos-duration="1500">
-                    <!-- <video src="video/wildlife.mkv" controls> </video> -->
-                    <a class="link" href="/portfolio/web/Safe_world/index.html">
-                        <img src="pic/wildlife-page.png" alt="">
-                        <div class="hold-color">
-                            <p>Click to website</p>
-                        </div>
-                    </a>
-                </div>
 
-                <div class="web-box" data-aos="fade-up" data-aos-duration="1500">
-                    <!-- <video src="video/blog.mkv" controls> </video> -->
-                    <a class="link" href="/portfolio/web/blog/blog.html">
-                        <img src="pic/blog-page.png" alt="">
-                        <div class="hold-color">
-                            <p>Click to website</p>
-                        </div>
-                    </a>
+            <div class="port-container first">
+                <div class="top">
+                    <h1>WEB DEVELOPMENT</h1>
                 </div>
-
-                <div class="web-box" data-aos="fade-up" data-aos-duration="1500"> 
-                    <!-- <video src="video/google.mkv" controls> </video> -->
-                    <a class="link" href="/portfolio/web/google2/google2.html">
-                        <img src="pic/google-page.png" alt="">
-                        <div class="hold-color">
-                            <p>Click to website</p>
+                <div class="port-content">
+                    <a class="left-btn" onclick="plusDivs1(-1)">❮</a>
+                    
+                        <div class="slide-box1 pos">
+                            <a class="link" href="web/Safe_world/index.html" target="_blank">
+                                <img class="mySlides1" src="pic/wildlife-page.png">
+                                <div class="hold-color">
+                                    <p>Click to website</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-
-                <div class="web-box" data-aos="fade-up" data-aos-duration="1500"> 
-                    <!-- <video src="video/google.mkv" controls> </video> -->
-                    <a class="link" href="/portfolio/web/MyStore/index.html">
-                        <img src="pic/MyStore-page.png" alt="">
-                        <div class="hold-color">
-                            <p>Click to website</p>
+                        <div class="slide-box1 pos">
+                            <a class="link" href="web/blog/blog.html" target="_blank">
+                                <img class="mySlides1" src="pic/blog-page.png">
+                                <div class="hold-color">
+                                    <p>Click to website</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                
-                <div class="web-box" data-aos="fade-up" data-aos-duration="1500"> 
-                    <!-- <video src="video/google.mkv" controls> </video> -->
-                    <a class="link" href="/portfolio/web/getting-dicey-with-flexbox/index.html">
-                        <img src="pic/dicey-page.png" alt="">
-                        <div class="hold-color">
-                            <p>Click to website</p>
+                        <div class="slide-box1 pos">
+                            <a class="link" href="web/google2/google2.html" target="_blank">
+                                <img class="mySlides1" src="pic/google-page.png">
+                                <div class="hold-color">
+                                    <p>Click to website</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                        <div class="slide-box1 pos">
+                            <a class="link" href="web/MyStore/index.html" target="_blank">
+                                <img class="mySlides1" src="pic/MyStore-page.png">
+                                <div class="hold-color">
+                                    <p>Click to website</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide-box1 pos">
+                            <a class="link" href="web/getting-dicey-with-flexbox/index.html" target="_blank">
+                                <img class="mySlides1" src="pic/dicey-page.png">
+                                <div class="hold-color">
+                                    <p>Click to website</p>
+                                </div>
+                            </a>
+                        </div>
+                    <a class="right-btn" onclick="plusDivs1(1)">❯</a>
                 </div>
             </div>
 
-            <div class="ps-container">
-                <div class="top" data-aos="fade-in" data-aos-duration="1500">
+            <div class="port-container second">
+                <div class="top">
                     <h1>PHOTOSHOP</h1>
                 </div>
-                <div class="ps-content">
-                    <a class="ps-left-btn" onclick="plusDivs1(-1)">❮</a>
+                <div class="port-content">
+                    <a class="left-btn" onclick="plusDivs2(-1)">❮</a>
                     
-                        <div class="slide-box1 hove" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="slide-box2 hove">
                             <img class="mySlides1" src="pic/23Savage.jpg">
                         </div>
-                        <div class="slide-box1 hove" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="slide-box2 hove">
                             <img class="mySlides1" src="pic/TenZ.jpg">
                         </div>
-                        <div class="slide-box1 hove" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="slide-box2 hove">
                             <img class="mySlides1" src="pic/Roshan.jpg">   
                         </div>
-                        <div class="slide-box1 hove" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="slide-box2 hove">
                             <img class="mySlides1" src="pic/youtube background.jpg">
                         </div>
-                        <!-- <img class="mySlides1" src="pic/23Savage.jpg">
-                        <img class="mySlides1" src="pic/TenZ.jpg">
-                        <img class="mySlides1" src="pic/Roshan.jpg">
-                        <img class="mySlides1" src="pic/youtube background.jpg"> -->
-                    <a class="ps-right-btn" onclick="plusDivs1(1)">❯</a>
+
+                    <a class="right-btn" onclick="plusDivs2(1)">❯</a>
                 </div>
             </div>
 
-            <div class="ps-container">
-                <div class="top" data-aos="fade-in" data-aos-duration="1500">
+            <div class="port-container third">
+                <div class="top">
                     <h1>VIDEO EDITING</h1>
                 </div>
-                <div class="ps-content">
-                    <a class="ps-left-btn" onclick="plusDivs2(-1)">❮</a>
+                <div class="port-content">
+                    <a class="left-btn" onclick="plusDivs3(-1)">❮</a>
                     
-                        <div class="slide-box2 pos" data-aos="fade-up" data-aos-duration="1500">
-                            <a class="link" href="https://drive.google.com/file/d/1n9lWMbLrsiw0fPLngp1EkLFrPemBCcPy/view">
+                        <div class="slide-box3 pos">
+                            <a class="link" href="https://drive.google.com/file/d/1n9lWMbLrsiw0fPLngp1EkLFrPemBCcPy/view" target="_blank">
                                 <img class="mySlides1" src="pic/video-page-1.png">
                                 <div class="hold-color">
                                     <p>watch video</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="slide-box2 pos" data-aos="fade-up" data-aos-duration="1500">
-                            <a class="link" href="https://drive.google.com/file/d/1VBvxRbrjMtxtxixWtU-TEPjlxIiq_Yae/view">
+                        <div class="slide-box3 pos">
+                            <a class="link" href="https://drive.google.com/file/d/1VBvxRbrjMtxtxixWtU-TEPjlxIiq_Yae/view" target="_blank">
                                 <img class="mySlides1" src="pic/video-page-2.png">
                                 <div class="hold-color">
                                     <p>watch video</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="slide-box2 pos" data-aos="fade-up" data-aos-duration="1500">
-                            <a class="link" href="https://drive.google.com/file/d/1b18lLV8pabH9O288jkC_0yUNCiNpeAqm/view">
+                        <div class="slide-box3 pos">
+                            <a class="link" href="https://drive.google.com/file/d/1b18lLV8pabH9O288jkC_0yUNCiNpeAqm/view" target="_blank">
                                 <img class="mySlides1" src="pic/video-page-3.png">
                                 <div class="hold-color">
                                     <p>watch video</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="slide-box2 pos" data-aos="fade-up" data-aos-duration="1500">
-                            <a class="link" href="https://drive.google.com/file/d/1uW4JUpxnteJMc4ajy19VDqYh4Rn4UrgO/view">
+                        <div class="slide-box3 pos">
+                            <a class="link" href="https://drive.google.com/file/d/1uW4JUpxnteJMc4ajy19VDqYh4Rn4UrgO/view" target="_blank">
                                 <img class="mySlides1" src="pic/video-page-4.png">
                                 <div class="hold-color">
                                     <p>watch video</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="slide-box2 pos" data-aos="fade-up" data-aos-duration="1500">
-                            <a class="link" href="https://drive.google.com/file/d/1PTNA7rW0ewz8mB9KNlopW3pNNpJ43O7Y/view">
+                        <div class="slide-box3 pos">
+                            <a class="link" href="https://drive.google.com/file/d/1PTNA7rW0ewz8mB9KNlopW3pNNpJ43O7Y/view" target="_blank">
                                 <img class="mySlides1" src="pic/video-page-5.png">
                                 <div class="hold-color">
                                     <p>watch video</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="slide-box2 pos" data-aos="fade-up" data-aos-duration="1500">
-                            <a class="link" href="https://drive.google.com/file/d/1R4u6OsL5IMkm9M3SjGPs6OwUVgt5llG9/view">
+                        <div class="slide-box3 pos">
+                            <a class="link" href="https://drive.google.com/file/d/1R4u6OsL5IMkm9M3SjGPs6OwUVgt5llG9/view" target="_blank">
                                 <img class="mySlides1" src="pic/video-page-6.png">
                                 <div class="hold-color">
                                     <p>watch video</p>
                                 </div>
                             </a>
                         </div>
-                        
-                        <!-- <img class="mySlides1" src="pic/23Savage.jpg">
-                        <img class="mySlides1" src="pic/TenZ.jpg">
-                        <img class="mySlides1" src="pic/Roshan.jpg">
-                        <img class="mySlides1" src="pic/youtube background.jpg"> -->
-                    <a class="ps-right-btn" onclick="plusDivs2(1)">❯</a>
+                       
+                    <a class="right-btn" onclick="plusDivs3(1)">❯</a>
                 </div>
             </div>
 
             <div class="pj-container">
-                <div class="top" data-aos="fade-in" data-aos-duration="1500">
+                <div class="top">
                     <h1>PROJECT</h1>
                 </div>
                 <div class="project-content-box">
-                    <div class="project-box" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="project-box">
                         <video src="video/game.mkv" controls> </video>
                         <p>Robotic Shooting เกมส์ยิงมุมมองบุคคลที่สาม เป็นเกมส์แนว endless
                             ผู้เล่นจะต้องเอาชีวิตรอดจากศัตรูและทำคะแนนให้ได้มากที่สุด 
                         </p>
 
                     </div>
-                    <div class="project-box" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="project-box">
                         <video src="video/gen.mp4" controls> </video>
                         <p>Lost & Found Application เป็นการออกแบบแอพพลิเคชั่นตามหาของหาย
                             ภายในมหาวิทยาลัยพระจอมเกล้าธนบุรี โดยผู้ใช้จะสามารถดูรายละเอียดของที่ถูกเก็บได้
@@ -189,32 +192,43 @@
             </div>
         </div>
     </div>
-    <script src="port.js"></script>
+
+    <div class="footer" id="footer">
+        <div class="footer-first">
+            <p>contact</p>
+            <div class="contact">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100002461800975" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/sithmok_/" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCilqV8a9i0fzrIDDIsCXT0g" target="_blank">
+                            <i class="fab fa-youtube-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-second">
+            <p>Reference</p>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons from <a href="https://fontawesome.com/" title="Flaticon">www.fontawesome.com</a></div>
+        </div>
+    </div>
+
+    <script src="topbar.js"></script>
     <script src="Slides.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-
-    <!-- <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-    
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-    
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = x.length} ;
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";  
-      }
-      x[slideIndex-1].style.display = "block";  
-    }
-    </script> -->
 
 </body>
 </html>
