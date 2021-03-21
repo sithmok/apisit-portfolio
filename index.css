@@ -202,9 +202,7 @@ a {
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
     width: 20%;
-    /* padding: 40px 20px; */
     padding: 2% 1%;
-    /* margin: 0px 20px; */
     margin: 0% 1%;
     transition: all 0.5s linear;
 }
@@ -311,7 +309,7 @@ a {
     align-items: center;
     justify-content: center;
     transition: all 0.3s linear;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 
@@ -480,21 +478,7 @@ a {
     .topbar .menu-active {
         display: flex;
     }
-}
 
-
-@media only screen and (max-width: 930px){
-    
-    .photo {
-        width: 200px;
-        height: 200px;
-    }
-    
-    .photo img {
-        width: 200px;
-        height: 200px;
-    }
-    
     .container-2-box {
         display: flex;
         flex-direction: column;
@@ -504,35 +488,38 @@ a {
     }
 
     .card {
-        margin: 0px;
-        margin: 20px 0px;
-        /* width: 400px; */
-        width: 70%;
+        margin: 1% 0%;
+        width: 40%;
     }
 
     .card img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
     
     .card h1{
-        font-size: 50px;
-        margin: 20px 0px;
+        font-size: 35px;
+        margin: 2% 0%;
     }
     
     .card p{
-        font-size: 25px;
+        font-size: 20px;
     }
-
-    .menu-active {
-        display: flex;
-    }
-
-
 }
 
-@media only screen and (max-width: 570px){
-    
+
+@media only screen and (max-width: 768px){
+
+    .photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .photo img{
+        width: 150px;
+        height: 150px;
+    }
+
     .content-1 {
         width: auto;
         margin: 50px 0px;
@@ -546,15 +533,69 @@ a {
         font-size: 20px;
     }
 
-    .card {
-        margin: 25px 0px;
-        width: 80%;
+    .container-2-box .card h1{
+        font-size: 25px;
     }
 
-    .topbar .logo h1 {
-        font-size: 40px;
-        color: white;
+    .container-2-box .card p{
+        font-size: 15px;
     }
+
+    .container-2 h1{
+        font-size: 35px;
+    }
+
+    .container-3 h1 {
+        font-size: 35px;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    
+     .photo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .photo img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .content-1 h1{
+        font-size: 30px;
+    }
+    
+    .content-1 p{
+        font-size: 15px;
+    }
+
+    .container-2-box .card h1{
+        font-size: 22px;
+    }
+
+    .container-2-box .card p{
+        font-size: 18px;
+    }
+
+    .container-2 h1{
+        font-size: 30px;
+    }
+
+    .container-3 h1 {
+        font-size: 30px;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
 }
 
 
@@ -613,6 +654,7 @@ a {
     width: 100%;
     height: 100%;
     background-color: rgb(26, 26, 26);
+    padding-top: 100px;
 }
 
 .web-box:hover .hold-color {
@@ -637,7 +679,7 @@ a {
 
 .port-container {
     width: 100%;
-    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .port-content {
@@ -730,7 +772,7 @@ a {
     color: black;
     font-size: 20px;
     margin: 0 auto;
-    padding: 10px 50px;
+    padding: 1% 5%;
 }
 
 @media only screen and (max-width: 1024px){
@@ -740,6 +782,24 @@ a {
         grid-gap: 25px;
         margin-top: 30px;
     }
+
+    .top h1{
+        font-size: 20px;
+    }
+
+    .left-btn {
+        font-size: 30px;
+    }
+
+    .right-btn {
+        font-size: 30px;
+    }
+
+    .project-box p {
+        font-size: 15px;
+        padding: 1% 5%;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -755,6 +815,23 @@ a {
         grid-template-columns: repeat(1,1fr);
         grid-gap: 25px;
     }
+
+    .top h1{
+        font-size: 15px;
+    }
+
+    .left-btn {
+        font-size: 25px;
+    }
+
+    .right-btn {
+        font-size: 25px;
+    }
+
+    .project-box p {
+        padding: 1% 5%;
+    }
+
 }
 
 
