@@ -692,6 +692,15 @@ a {
     width: 60%;
     position: relative;
     box-shadow: 0px 0px 30px rgba(0,0,0,1);
+    
+}
+
+.pos p{
+    font-size: 20px;
+    padding: 1% 5%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
 }
 
 .mySlides1 {
@@ -758,7 +767,7 @@ a {
 }
 
 .project-box {
-    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0,0,0,1);
     width: 100%;
     height: auto;
 }
@@ -769,7 +778,7 @@ a {
 
 .project-box p {
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin: 0 auto;
     padding: 1% 5%;
@@ -800,6 +809,11 @@ a {
         padding: 1% 5%;
     }
 
+    .pos p{
+        font-size: 15px;
+        padding: 1% 5%;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -826,10 +840,6 @@ a {
 
     .right-btn {
         font-size: 25px;
-    }
-
-    .project-box p {
-        padding: 1% 5%;
     }
 
 }
